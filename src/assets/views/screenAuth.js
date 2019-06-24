@@ -28,7 +28,7 @@ export const screenAuth = () => {
             <button type="button" class="button" id="btn-checkin2">Registrarse</button>
 
             <!-- Boton para volver al login -->
-            <button type="button" class="button" id="return-login">Volver</button>
+            <button type="button" class="button" id="back">Volver</button>
         </form>
       </div>
     </section>

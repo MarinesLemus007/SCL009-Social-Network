@@ -21,7 +21,7 @@ document.getElementById('root').innerHTML =
                 <button type="button" class="button" id="btn_reset_pass" value="Cambiar Contraseña">Cambiar Contraseña</button>
                 
                 <!-- Boton para volver al login -->
-                <button type="button" class="button" id="return-login">Volver</button>
+                <button type="button" class="button" id="returnlogin">Volver</button>
             </form>
         </div>
     </section>
@@ -33,10 +33,9 @@ document.getElementById("btn_reset_pass").addEventListener("click", () => {
     window.location.hash = '#/login';
 })
 
-document.getElementById("return-login").addEventListener("click", () => {
-
+document.getElementById("returnlogin").addEventListener("click", () => {
     screenLogin();
-     window.location.hash = '#/login';
+    window.location.hash = '#/login';
 })
 
 }
